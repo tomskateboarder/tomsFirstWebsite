@@ -1,2 +1,2 @@
 # tomsFirstWebsite
-first website from scratch for Thinkful assignment.
+first website from scratch for Thinkful assignment, using HTML and CSS.
