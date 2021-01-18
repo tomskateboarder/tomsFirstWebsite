@@ -156,6 +156,12 @@ hr {
   padding-left: 0;
 }
 
+p {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 /* Groups and Items (Desktop) */
 
 @media all and  (min-width: 600px) {
