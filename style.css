@@ -1,11 +1,8 @@
 * {
   box-sizing: border-box;
 
-/* Clean up/delete groups and better organize sections of code */
-/* Make nav bar flexbox responsive */
-/* Change article fonts */
-/* link email address to contact form */
-/* Put a map in Where Do I Live? section */
+
+
 /* Use alternating grid flexbox CSS */
 
 }
@@ -34,12 +31,16 @@ header {
 }
 
 /* clean up and center images */
-.center {
+.logo {
   display: flex;
   justify-content: center;
   filter: drop-shadow(0 0 0.55rem rgb(63, 63, 63));
-  width: auto;
-  height: 250px;
+}
+
+.map {
+  display: flex;
+  width: 100%;
+  filter: drop-shadow(0 0 0.55rem rgb(63, 63, 63));
 }
 
 .quiz {
@@ -51,12 +52,11 @@ header {
 
 /* set font family for all text and stylize it. */
 
-h5, h4, h3, h2, h1, p, ul {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+h5, h4, h3, h2, h1, p, ul, ol {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 ol {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: medium;
 }
 
@@ -85,12 +85,7 @@ a {
   text-align: center;
 }
 
-a:link    {color: blue;}
-a:visited {color: red;}
-a:hover   {color: blueviolet;}
-a:active  {color: yellow;}
-
-
+a:link    {color: rgb(73, 73, 75);}
 
 nav ul li a {
   display: flex;
@@ -106,6 +101,8 @@ nav ul li {
   list-style: none;
 }
 
+/* page breaks */
+
 hr {
   height: 1px;
   background-color: rgb(248, 246, 246);
@@ -113,8 +110,6 @@ hr {
   margin-bottom: 20px;
 }
 
-
-/* Groups and Items for Mobile First */
 
 /* Contact Form */
 
@@ -125,14 +120,17 @@ hr {
 }
 
 .contact-links {
+  display: flex;
   justify-content: center;
-  padding-left: 0;
 }
+
+/* paragraph text */
 
 p {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* align email address center. */
