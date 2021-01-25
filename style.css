@@ -1,10 +1,6 @@
 * {
   box-sizing: border-box;
 
-
-
-/* Use alternating grid flexbox CSS */
-
 }
 /* set background color. */
 body {
@@ -87,6 +83,8 @@ a {
 
 a:link    {color: rgb(73, 73, 75);}
 
+/* nav bar */
+
 nav ul li a {
   display: flex;
   justify-content: center;  
@@ -122,6 +120,7 @@ hr {
 .contact-links {
   display: flex;
   justify-content: center;
+  padding-bottom: 10px;
 }
 
 /* paragraph text */
@@ -144,12 +143,15 @@ p {
 /* Groups and Items (Desktop) */
 
 @media all and  (min-width: 600px) {
+
+ 
   section {
       padding: 0 10%;
   }
 
   .contact-links {
     justify-content: center;
+    padding-bottom: 10px;
   }
 
   nav ul {
