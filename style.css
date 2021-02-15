@@ -24,7 +24,34 @@ body {
   grid-column-end: 1;
   grid-row-start: 1;
   grid-row-end: 1;
-  padding: 30px;
+  padding: 20px;
+  
+}
+
+.grid-item-col2-row1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  padding: 20px;
+  
+}
+
+.grid-item-col1-row2 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  padding: 20px;
+  
+}
+
+.grid-item-col2-row2 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  padding: 20px;
   
 }
 
@@ -49,18 +76,21 @@ header {
   display: flex;
   width: auto;
   filter: drop-shadow(0 0 0.55rem rgb(63, 63, 63));
+  
 }
 
 .map {
   display: flex;
   width: 100%;
   filter: drop-shadow(0 0 0.55rem rgb(63, 63, 63));
+  
 }
 
 .quiz {
   filter: drop-shadow(0 0 0.55rem rgb(63, 63, 63));
   display: flex;
   width: 100%;
+  
 }
 
 
@@ -85,7 +115,7 @@ h1, h2 {
 
 /* stylize links. */
 a {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Nunito', sans-serif;
   text-align: center;
 }
 
@@ -122,6 +152,7 @@ hr {
 .form {
   flex: 2;
   margin: 10px;
+  font-family: 'Nunito', sans-serif;
 }
 
 .contact-links {
